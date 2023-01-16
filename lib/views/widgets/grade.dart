@@ -29,7 +29,8 @@ class GradeWidget extends StatelessWidget {
                 children: [
                   Text(
                     subject.toString(),
-                    style: const TextStyle(fontWeight: FontWeight.bold),
+                    style: TextStyle(
+                        fontWeight: FontWeight.bold, color: colours.bluePurple),
                   ),
                   Text(exam),
                 ],

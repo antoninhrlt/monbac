@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:monbac/views/home.dart';
-import 'package:monbac/widgets/skip_button.dart';
+import 'package:monbac/views/widgets/navigator.dart';
+import 'package:monbac/views/widgets/skipper.dart';
 
 // The view displayed at the first connection.
 // Displays an overview of the application's possibilities.
@@ -29,7 +30,10 @@ class WelcomeView extends StatelessWidget {
               textAlign: TextAlign.center,
             ),
           ),
-          SkipButton.withLabel(label: 'Suivant', navigateTo: HomeView()),
+          SkipperWidget.withLabel(
+            label: 'Suivant',
+            navigateTo: const HomeView(),
+          ),
         ],
       ),
     );

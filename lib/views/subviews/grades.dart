@@ -1,6 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:monbac/widgets/grade.dart';
+import 'package:monbac/views/widgets/grade.dart';
 import 'package:monbac/theme/colours.dart' as colours;
 
 class GradesView extends StatelessWidget {
